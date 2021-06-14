@@ -10,9 +10,11 @@
     <h1>Exercice 6 Partie 3 : Les boucles PHP</h1>
     <p>
     <?php
-    for($firstNumber = 20; $firstNumber >=1; $firstNumber--)
+    for($i = 20; $i >=1; $i--)
     {
-        echo ("C'est presque bon! ");
+        echo 'C\'est presque bon!';?>
+        <br>
+    <?php
     }
     ?>
     </p>
